@@ -1,0 +1,77 @@
+/* Instagram-style Global CSS */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Han Sans", "Microsoft YaHei", "Helvetica Neue", "Arial", sans-serif;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.container {
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header, .footer {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    margin: 15px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    padding: 15px;
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

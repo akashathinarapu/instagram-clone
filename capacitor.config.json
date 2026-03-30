@@ -1,0 +1,1 @@
+{\n  "appId": "com.akashathinarapu.instagramclone",\n  "appName": "Instagram Clone",\n  "webDir": "www",\n  "bundledWebRuntime": false,\n  "plugins": {\n    "SplashScreen": {\n      "launchShowDuration": 3000\n    }\n  },\n  "android": {\n    "allowInlineMediaPlayback": true,\n    "forceDarkStatusBar": false\n  }\n}
